@@ -1,10 +1,10 @@
-import Tiptap from "./Tiptap.jsx";
 import './App.css';
+import TextEditor from "./Fake.jsx";
 
 const App = () => {
   return (
     <div className="App">
-      <Tiptap />
+      <TextEditor />
     </div>
   );
 };
